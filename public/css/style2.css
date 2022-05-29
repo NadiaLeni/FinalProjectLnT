@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 30px;
+}
+
+.kotak{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 3%;
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    padding: 25px;
+    margin-top: 200px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.tulisan{
+    color: aliceblue;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+#tulisan2{
+    color: #8B4513;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #FAEBD7;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#tulisan2:hover{
+    color: #FDF5E6;
+    background-color: #DB7093;
+}

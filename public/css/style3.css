@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 30px;
+}
+
+.kotak{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    padding: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#tulisan1{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.tulisan{
+    color: aliceblue;
+}
+
+.satu{
+    font-size: 25px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+#name{
+    box-sizing:border-box;
+    height: 30px;
+	width: 60vh;
+	padding: 10px;
+	/* font-size: 15pt; */
+	margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.dua{
+    font-size: 25px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+#price{
+    box-sizing:border-box;
+    height: 30px;
+	width: 60vh;
+	padding: 10px;
+	/* font-size: 15pt; */
+	margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.tiga{
+    font-size: 25px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+#amount{
+    box-sizing:border-box;
+    height: 30px;
+	width: 60vh;
+	padding: 10px;
+	/* font-size: 15pt; */
+	margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.empat{
+    font-size: 25px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+#picture{
+    padding-bottom: 40px;
+}
+
+/* #releaseDate{
+    box-sizing:border-box;
+    height: 30px;
+	width: 60vh;
+	padding: 10px;
+	/* font-size: 15pt; */
+	/* margin-bottom: 70px; */
+    /* flex-direction: column; */
+/* } */
+
+.tombol{
+    background: #FAEBD7;
+	color: #8B4513;
+	font-size: 18px;
+    font-weight: 700;
+	width: 100%;
+	border: none;
+	border-radius: 8px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.tombol:hover{
+    color: #FDF5E6;
+    /* color:black; */
+    background-color: #DB7093;
+    /* background-color: lime; */
+}
+
+.tombol2{
+    color: white;
+	text-decoration: none;
+	font-size: 19px;
+    font-weight: 500;
+    /* width: 20%; */
+    /* left: 50%; */
+    display: flex;
+    justify-content: center;
+}
+
+.tombol2:hover{
+    color: #D3D3D3;
+}
